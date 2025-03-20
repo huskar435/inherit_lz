@@ -7,7 +7,7 @@ def main():
     square.draw()  
 
 
-    quadrilateral = Quadrilateral(color='green', border_width=3, filled=False,  side_size_a=6, side_size_b=9, side_size_c=9, side_size_d=9)
+    quadrilateral = Quadrilateral(color='green', border_width=3, filled=False,  side_size_a=6, side_size_b=5, side_size_c=4, side_size_d=3)
     print(quadrilateral.info())  
     quadrilateral.draw()  
     

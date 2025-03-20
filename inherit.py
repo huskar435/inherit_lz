@@ -42,7 +42,7 @@ class Quadrilateral:
     def draw(self):
         fig, ax = plt.subplots()
         
-        points = [(0, 0), (self.side_size_a, 0),(self.side_size_a, self.side_size_b), (0, self.side_size_c)]
+        points = [(0, 0), (self.side_size_a/2, 0),(self.side_size_a, self.side_size_b), (0, self.side_size_c/2)]
         quadrilateral = patches.Polygon(points, closed=True, linewidth=self.border_width, edgecolor=self.color, facecolor=self.color if self.filled else 'none')
         
         
